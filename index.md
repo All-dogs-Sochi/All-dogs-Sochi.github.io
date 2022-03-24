@@ -2,6 +2,6 @@
   <head>
     <link rel="icon" 
      type="image/png" 
-     href="./style/images/logo.favicon">
+     href=".favicon.png">
   </head>
 </html>
