@@ -118,11 +118,7 @@ h1 h2{
 }
 
 .footer a{
-	height: 40px;
-}
-
-.privacy{
-	margin-right: 40px;
+	margin: 15px 40px 15px 0;
 }
 
  @media (max-width: 1200px){
