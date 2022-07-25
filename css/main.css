@@ -44,7 +44,6 @@ h1 h2{
 }
 .left{
 	width: 50%;
-	height: 400px;
 	align-items: center;
 	margin: 0 auto;
 	display: flex;  /*центрирование*/
@@ -68,7 +67,6 @@ h1 h2{
 
 .right{
 	width: 50%;
-	height: 400px;
 	align-items: center;
 	display: flex;
   	justify-content: space-between;
@@ -90,6 +88,7 @@ h1 h2{
 }
 .image{
 	margin: auto;
+	width: 100%;
 	padding-left: 15px;
 }
 .name{
@@ -124,6 +123,96 @@ h1 h2{
 .privacy{
 	margin-right: 40px;
 }
+
+ @media (max-width: 1200px){
+ 	.section{
+		padding: 12px 100px;
+	}
+ 	.about_image{
+ 		width: 85%;
+ 	}
+ }
+
+ @media (max-width: 960px){
+ 	
+ 	.image{
+ 		width: 90%;
+ 	}
+ 	.left-content{
+ 		width: 90%;
+ 	}
+ 	.main_section{
+		margin: 40px auto 150px auto;
+	}
+ }
+ @media (max-width: 768px){
+ 	
+ 	.main_section{
+		display: block;
+		justify-content: center;
+	}
+	.right{
+		margin: 30px auto 0 auto;
+		width: 100%;
+	}
+	.left{
+		width: 100%;
+	}
+	.left-about{
+		margin: 30px auto 0 auto;
+		width: 100%;
+	}
+	.right-about{
+		width: 100%;
+		margin-left: 0;
+	}
+	.item {
+	  width: 200px;
+	  height: 200px;
+	  padding-top: 10px;
+	  margin: 10px;
+	}
+ }
+ @media (max-width: 640px){
+
+ 	.section{
+		padding: 12px 100px;
+	}
+ 	
+	.item {
+	  width: 270px;
+	  height: 270px;
+	  padding-top: 10px;
+	  margin: 10px;
+	}
+ }
+
+ @media (max-width: 496px){
+ 	.section{
+		padding: 12px 40px;
+	}
+ 	
+	.item {
+	  width: 200px;
+	  height: 200px;
+	  padding-top: 10px;
+	  margin: 10px;
+	}
+
+	.btn{
+		height: 40px;
+		width: 240px;
+		align-items: center;
+		background: #8CD8CA;
+		border-radius: 30px; 
+		color: #FFFFFF;
+		display: flex;
+		font-size: 16px;
+ }
+
+ h2{
+ 	font-size: 20px;
+ }
 
 }
 
