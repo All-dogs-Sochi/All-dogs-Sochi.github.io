@@ -181,8 +181,8 @@ h1 h2{
 	}
  	
 	.item {
-	  width: 270px;
-	  height: 270px;
+	  width: 95%;
+	  height: auto;
 	  padding-top: 10px;
 	  margin: 10px;
 	}
@@ -192,14 +192,6 @@ h1 h2{
  	.section{
 		padding: 12px 40px;
 	}
- 	
-	.item {
-	  width: 200px;
-	  height: 200px;
-	  padding-top: 10px;
-	  margin: 10px;
-	}
-
 	.btn{
 		height: 40px;
 		width: 240px;
